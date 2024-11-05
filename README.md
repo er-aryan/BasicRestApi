@@ -76,9 +76,5 @@ python
   * POST /upload: Upload files (JWT Protected).
 ## Testing
   * Use Postman or similar tools to test each endpoint. Ensure to include the JWT token in the Authorization header for protected routes.
-## License
-This project is licensed under the MIT License.
-```bash
-This `README.md` covers setup instructions, running the application, and API usage details. Make sure to replace `<repository-url>` and add the team members' names.
-```
+
 
