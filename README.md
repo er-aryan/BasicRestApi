@@ -65,15 +65,29 @@ python
 ## API Endpoints
 1. Authentication
   * POST /login: Log in and receive a JWT token.
+    ![Screenshot from 2024-11-04 20-04-16](https://github.com/user-attachments/assets/21555436-31b4-4e96-9079-4c9cbdd21584)
+
 2. User Management (JWT Protected)
   * POST /register: Create a new user.
+    ![Screenshot from 2024-11-04 20-10-04](https://github.com/user-attachments/assets/a1186b88-6b34-4135-a44e-62b7440e4224)
+    ![Screenshot from 2024-11-04 20-10-31](https://github.com/user-attachments/assets/324ce11d-ad11-48a8-8d5b-818696bf8933)
   * GET /users: Get all users.
+    ![Screenshot from 2024-11-04 20-11-22](https://github.com/user-attachments/assets/ea7c6f68-4e90-497b-a7bd-1cbf3f625601)
   * PUT /user/<id>: Update user information.
+    ![Screenshot from 2024-11-04 20-24-48](https://github.com/user-attachments/assets/5654cd6b-dc4c-4356-9e61-580518068e9c)
+    ![Screenshot from 2024-11-04 20-26-09](https://github.com/user-attachments/assets/5986fd3e-3349-4b3f-b479-37e027db36fd)
   * DELETE /user/<id>: Delete a user.
+    ![Screenshot from 2024-11-04 20-26-42](https://github.com/user-attachments/assets/a84b3970-8ed2-4bde-9b2c-54aaea58f389)
+    ![Screenshot from 2024-11-04 20-27-36](https://github.com/user-attachments/assets/8eca1f90-b344-453e-bbe3-ea90be462ca1)
+
 3. Public Routes
   * GET /public: Access publicly available information.
+    ![Screenshot from 2024-11-04 20-28-13](https://github.com/user-attachments/assets/0204e0b2-096b-4fe5-abd2-5eb55dd20441)
 4. File Handling
   * POST /upload: Upload files (JWT Protected).
+    ![Screenshot from 2024-11-04 20-41-39](https://github.com/user-attachments/assets/3dcebf77-99ad-472a-947d-96e1c25a1778)
+    ![Screenshot from 2024-11-04 20-42-49](https://github.com/user-attachments/assets/d2e70725-8055-4e67-a6f7-eb1c0c0358aa)
+
 ## Testing
   * Use Postman or similar tools to test each endpoint. Ensure to include the JWT token in the Authorization header for protected routes.
 
